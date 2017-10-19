@@ -12,14 +12,39 @@ body {
 	overflow: scroll;
 }
 
+#header img {
+	margin-left: 14px;
+	margin-top: 22px;
+	margin-right: 15px;
+	width: 120px;
+	height: 44px;
+	display: inline-block;
+}
 
-#header {
-	position: relative;
+#logo {
+	display: inline;
+}
+
+#search-bar {
+	display: inline-block;
+	position: absolute;
+	top: 18px;
+	width: 612px;
+}
+
+#buttons-top {
+	float: right;
+}
+
+/*#header {
 	height: 64px;
 }
 
+.header-child {
+	display: inline-block;
+}
+
 #logo {	
-	position: absolute;
 	height: 100%;
 }
 
@@ -31,7 +56,6 @@ img {
 }
 
 #search-bar {
-	position: absolute;
 	left: 143px;
 	height: 100%;
 
@@ -42,7 +66,5 @@ img {
 }
 
 #buttons-top {
-	position: absolute;
-	right: 20px;
 	height: 100%;
-}
+}*/
