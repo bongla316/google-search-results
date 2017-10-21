@@ -12,6 +12,10 @@ body {
 	overflow: scroll;
 }
 
+#header {
+	height: 64px;
+}
+
 #header img {
 	margin-left: 14px;
 	margin-top: 22px;
@@ -35,6 +39,27 @@ body {
 #buttons-top {
 	float: right;
 }
+
+#google-page-links {
+	position: relative;
+	height: 58px;
+}
+
+#google-page-links div {
+	display: inline;
+}
+
+#google-page-links #link-wrapper {
+	position: absolute;
+	margin-top: 20px;
+
+}
+
+#google-page-links #right {
+	margin-left: 30px;
+}
+
+
 
 /*#header {
 	height: 64px;
