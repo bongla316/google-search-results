@@ -59,6 +59,10 @@ body {
 	margin-left: 30px;
 }
 
+#main-wrapper {
+	position: relative;
+	margin-left: 150px;
+}
 
 
 /*#header {
