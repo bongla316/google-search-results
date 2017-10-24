@@ -62,7 +62,36 @@ body {
 #main-wrapper {
 	position: relative;
 	margin-left: 150px;
+	width: 600px;
+	padding-right: 16px;
+	padding-left: 16px;
 }
+
+#total-results {
+	height: 43px;
+}
+
+#main-wrapper .top-result {
+
+}
+
+#main-wrapper table {
+	margin-left: 22px;
+	position: relative;
+	width: 615px;
+}
+
+#main-wrapper .description {
+	font-size: small;
+	font-family: arial, sans-serif;
+	text-align: left;
+	overflow: hidden;
+	width: 220px;
+	padding-top: 6px;
+	padding-right: 4px;
+}
+
+
 
 
 /*#header {
