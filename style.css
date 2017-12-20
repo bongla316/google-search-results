@@ -3,6 +3,11 @@
 	margin: 0;
 }
 
+html {
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
 html, body{
 	height: 100%
 }
@@ -95,7 +100,22 @@ body {
 	margin-bottom: 26px;
 }
 
+#recommended h3{
+	padding-bottom: 12px;
+}
 
+#recommended .col {
+	display: inline-block;
+	line-height: 20px;
+	max-width: 100%;
+	font-size: 14px;
+}
+
+#recommended a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px 32px 3px 0;	
+}
 
 
 /*#header {
