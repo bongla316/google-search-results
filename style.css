@@ -76,7 +76,7 @@ body {
 	height: 43px;
 }
 
-#main-wrapper table {
+#main-wrapper .table1 {
 	margin-left: 22px;
 	position: relative;
 	width: 615px;
@@ -116,6 +116,49 @@ body {
 	display: inline-block;
 	padding: 3px 32px 3px 0;	
 }
+
+.pages td{
+	text-align: center;
+}
+
+.pages .page_0 {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -24px 0;
+	background-size: 167px;
+	display: block;
+	width: 28px;
+	height: 40px;
+}
+
+.pages .page_ro {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -53px 0;
+	background-size: 167px;
+	display: block;
+	width: 20px;
+	height: 40px;
+	margin-top: 15px;
+}
+
+.pages .page_yo {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -74px 0;
+	background-size: 167px;
+	display: block;
+	width: 20px;
+	height: 40px;
+	margin-top: 15px;
+}
+
+.pages .page_gle {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -96px 0;
+	background-size: 167px;
+	display: block;
+	width: 71px;
+	height: 40px;
+}
+
 
 
 /*#header {
